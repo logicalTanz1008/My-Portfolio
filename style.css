@@ -1,0 +1,104 @@
+h1{
+    color:teal
+}
+
+/*{
+    border: solid;
+}*/
+
+hr{
+    border: 2px solid rgb(128, 14, 14);
+
+}
+
+h1{
+    color:rgb(218, 213, 210);
+    margin-left: 500px;
+
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+a:hover{
+    color: rgb(44, 2, 2);
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+
+
+/*  .header *{
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(32, 12, 9);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: rgb(13, 38, 39);
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top:42px;
+    margin-right: 60px;
+    padding-right: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+}
+
+p, h2{
+    text-align: center;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.item{
+    position: relative;
+    padding-bottom: 50px;
+
+}
+
+
+.item p{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-family: monospace;
+    font-size: 30px;
+    color: black;
+}
+
+.item:hover p{
+    opacity: 1;
+    position: absolute;
+}
+
+.item:hover img{
+    opacity: 0.13;
+    transform: scale(1.1);
+    position: relative;
+}
